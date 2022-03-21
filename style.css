@@ -1,0 +1,88 @@
+body{
+	background-color: lightblue;
+}
+h1{
+	text-align: center;
+	font-family: Arial;
+}
+p{
+	text-align: center;
+	margin-top: 1px;
+  margin-bottom: 5px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+table {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+	background-color: pink;
+	border: 1px;
+	height: 50%;
+}
+
+td.title {
+    border: 1px solid #dddddd;
+    text-align: center;	
+	color: blue;
+	font-weight: bold;
+	font-size:20;
+
+}
+
+td.infon{
+	border: 1px solid #dddddd;
+    text-align: center;	
+	color: black;
+	font-weight: bold;
+}
+td.infod{
+	border: 1px solid #dddddd;
+    text-align: center;	
+	color: black;
+}
+
+#user{
+	text-align: center;
+	font-size: 35;
+	color: blue;
+	font-weight: bold;
+	font-family: Cursive;
+}
+
+#notlogged{
+	text-align: center;
+	color: red;
+	font-size: 15
+}
+#login, #reg{
+	text-align: center;
+	font-size: 25;
+	color: blue;
+	font-weight: bold;
+}
+
+#loginemail, #loginpasswrd{
+	text-align: center;
+	width: 40%;
+	display: block;
+    margin: 0 auto;
+
+}
+
+#name, #email, #passwrd, #cpasswrd{
+	text-align: center;
+	width: 40%;
+	display: block;
+    margin: 0 auto;
+}
+
+
+#loggingin, #registering{
+	color: white;
+	background-color: green;
+	display: block;
+    margin: 0 auto;
+	width: 100;
+	height:30;
+}
